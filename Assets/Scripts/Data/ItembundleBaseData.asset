@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e836c56af337f7748b26c578fb95e8ba, type: 3}
+  m_Name: ItembundleBaseData
+  m_EditorClassIdentifier: 
+  _itemIcons: []
+  _data: "100,\uAE30\uBCF8\uAC80,item_weapon_sword_01,ONE_HAND_SWORD,ONE_HAND,10,10,,,,,,,,10000\r\n101,\uAC08\uD034\uAC80,item_weapon_sword_02,ONE_HAND_SWORD,ONE_HAND,20,9,,,,,,,,\r\n102,\uC0AC\uC774\uD53C
+    \uAC80,item_weapon_sword_03,ONE_HAND_SWORD,ONE_HAND,20,15,,,,,,,,10001\r\n103,\uB9C8\uC2A4\uD130
+    \uC18C\uB4DC,item_weapon_sword_04,ONE_HAND_SWORD,ONE_HAND,35,12,,,,,,,,10007\r\n104,\uC0D0\uB7EC\uB9E8\uB354
+    \uC18C\uB4DC,item_weapon_sword_05,ONE_HAND_SWORD,ONE_HAND,30,10,,BURN,2,,,5,10,10004\r\n105,\uAE30\uC0AC\uC758
+    \uAC80,item_weapon_twoHand_01,TWO_HAND_SWORD,TWO_HAND,12,8,,,,,,,,\r\n106,\uCE74\uD0C0\uB098,item_weapon_twoHand_02,TWO_HAND_SWORD,TWO_HAND,15,10,,,,,,,,\r\n107,\uC218\uC815\uAC80,item_weapon_twoHand_03,TWO_HAND_SWORD,TWO_HAND,15,15,,,,,,,,\r\n108,\uD504\uB85C\uC2A4\uD2B8
+    \uC18C\uB4DC,item_weapon_twoHand_04,TWO_HAND_SWORD,TWO_HAND,25,10,,FROST_CRITICAL,,1.5,,,,10006\r\n109,\uC6A9\uC758
+    \uAC80,item_weapon_twoHand_05,TWO_HAND_SWORD,TWO_HAND,40,7,,,,,,,,\r\n110,\uAE30\uBCF8
+    \uD65C,item_weapon_bow_01,BOW,BOW,10,,,,,,,,,\r\n111,\uD0DC\uC591 \uD65C,item_weapon_bow_02,BOW,BOW,20,,,,,,,,,10002\r\n112,\uC5B4\uB460
+    \uD65C,item_weapon_bow_03,BOW,BOW,20,,,,,,,,,\r\n113,\uADF8\uB9BC\uC790 \uD65C,item_weapon_bow_04,BOW,BOW,25,,,,,,,,,10003\r\n114,\uBC14\uB78C\uC758
+    \uD65C,item_weapon_bow_05,BOW,BOW,25,,,,,,,,,10005\r\n115,\uB098\uBB34 \uBC29\uD328,item_weapon_shield_01,SHIELD,SHIELD,,,10,,,,,,,\r\n116,\uBC14\uC774\uD0B9
+    \uBC29\uD328,item_weapon_shield_02,SHIELD,SHIELD,,,15,,,,,,,\r\n117,\uBD88\uC758
+    \uBC29\uD328,item_weapon_shield_03,SHIELD,SHIELD,,,20,,,,,,,10004\r\n118,\uD558\uC774\uB784 
+    \uBC29\uD328,item_weapon_shield_04,SHIELD,SHIELD,,,25,,,,,,,10007\r\n119,\uB8EC
+    \uBC29\uD328,item_weapon_shield_05,SHIELD,SHIELD,,,35,,,,,,,\r\n120,\uD638\uD06C\uC544\uC774,item_artifact_01,ARTIFACT,ARTIFACT,,,,CRITICAL_RATE,10,,,,,\r\n121,\uD5CC
+    \uAC11\uC637,item_artifact_02,ARTIFACT,ARTIFACT,,,,DEFFENCE_BUFF,5,,,,,\r\n122,\uD761\uD608\uC758
+    \uB2E8\uB3C4,item_artifact_03,ARTIFACT,ARTIFACT,,,,DRAIN,,,,,,\r\n123,\uAE30\uC0AC\uC758
+    \uD63C,item_artifact_04,ARTIFACT,ARTIFACT,,,,OFFENSIVE_BUFF,5,,,,,10000\r\n124,\uACFC\uD559\uC758
+    \uC624\uBE0C,item_artifact_05,ARTIFACT,ARTIFACT,,,,TRUE_DAMAGE,1,,,,,10001\r\n125,\uD0DC\uC591\uC758
+    \uB3CC,item_artifact_06,ARTIFACT,ARTIFACT,,,,STUN,,,5,3,,10002\r\n126,\uADF8\uB9BC\uC790,item_artifact_07,ARTIFACT,ARTIFACT,,,,CRITICAL_DAMAGE,20,,,,,10003\r\n127,\uBD88\uC758
+    \uC2EC\uC7A5,item_artifact_08,ARTIFACT,ARTIFACT,,,,SPAWN_FIREBALL,1,,,,,10004\r\n128,\uBC14\uB78C,item_artifact_09,ARTIFACT,ARTIFACT,,,,GET_SPEED_AND_JUMP,10,,,,,10005\r\n129,\uC5BC\uC74C,item_artifact_10,ARTIFACT,ARTIFACT,,,,FROST,,,20,2,,10006\r\n130,\uC2DC\uCEE4\uC2A4\uD1A4,item_artifact_11,ARTIFACT,ARTIFACT,,,,,,,,,,10007"

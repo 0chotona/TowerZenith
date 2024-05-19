@@ -1,0 +1,32 @@
+﻿ID,Dev_Name,Name,Category,Type,Att_Power,Att_Speed,Def,Buff_Name,Buff_Degree,Buff_Rate,Buff_Percent,Dur_Time,Cool_Time,Synergy_ID
+100,기본 검,item_weapon_onehand_01,One_Hand,One_Hand_Sword,10,10,,,,,,,,10000
+101,갈퀴검,item_weapon_onehand_02,One_Hand,One_Hand_Sword,20,9,,,,,,,,
+102,사이피 검,item_weapon_onehand_03,One_Hand,One_Hand_Sword,20,15,,,,,,,,10001
+103,마스터 소드,item_weapon_onehand_04,One_Hand,One_Hand_Sword,35,12,,,,,,,,10007
+104,샐러맨더 소드,item_weapon_onehand_05,One_Hand,One_Hand_Sword,30,10,,Burn,2,,,5,10,10004
+105,카타나,item_weapon_twohand_01,Two_Hand,Two_Hand_Sword,12,8,,,,,,,,
+106,기사의 검,item_weapon_twohand_02,Two_Hand,Two_Hand_Sword,15,10,,,,,,,,
+107,수정검,item_weapon_twohand_03,Two_Hand,Two_Hand_Sword,15,15,,,,,,,,
+108,프로스트 소드,item_weapon_twohand_04,Two_Hand,Two_Hand_Sword,25,10,,Frost_Critical,,1.5,,,,10006
+109,용의 검,item_weapon_twohand_05,Two_Hand,Two_Hand_Sword,40,7,,,,,,,,
+110,나무 활,item_weapon_bow_01,Bow,Bow,10,,,,,,,,,
+111,숲의 활,item_weapon_bow_02,Bow,Bow,20,,,,,,,,,10002
+112,그림자 활,item_weapon_bow_03,Bow,Bow,20,,,,,,,,,
+113,태양의 활,item_weapon_bow_04,Bow,Bow,25,,,,,,,,,10003
+114,바람의 활,item_weapon_bow_05,Bow,Bow,25,,,,,,,,,10005
+115,나무 방패,item_weapon_shield_01,Shield,Shield,,,10,,,,,,,
+116,바이킹 방패,item_weapon_shield_02,Shield,Shield,,,15,,,,,,,
+117,불의 방패,item_weapon_shield_03,Shield,Shield,,,20,,,,,,,10004
+118,하이랄  방패,item_weapon_shield_04,Shield,Shield,,,25,,,,,,,10007
+119,룬 방패,item_weapon_shield_05,Shield,Shield,,,35,,,,,,,
+120,호크아이,item_artifact_01,Artifact,Artifact,,,,Critical_Rate,10,,,,,
+121,헌 갑옷,item_artifact_02,Artifact,Artifact,,,,Deffence_Increase,5,,,,,
+122,흡혈의 단도,item_artifact_03,Artifact,Artifact,,,,Drain,,,,,,
+123,기사의 혼,item_artifact_04,Artifact,Artifact,,,,Offensive_Increase,5,,,,,10000
+124,과학의 오브,item_artifact_05,Artifact,Artifact,,,,True_Damage,1,,,,,10001
+125,태양의 돌,item_artifact_06,Artifact,Artifact,,,,Stun,,,5,3,,10002
+126,그림자,item_artifact_07,Artifact,Artifact,,,,Critical_Damage,20,,,,,10003
+127,불의 심장,item_artifact_08,Artifact,Artifact,,,,Spawn_Fireball,1,,,,,10004
+128,바람,item_artifact_09,Artifact,Artifact,,,,Get_Speed_And_Jump,10,,,,,10005
+129,얼음,item_artifact_10,Artifact,Artifact,,,,Frost,,,20,2,,10006
+130,시커스톤,item_artifact_11,Artifact,Artifact,,,,,,,,,,10007

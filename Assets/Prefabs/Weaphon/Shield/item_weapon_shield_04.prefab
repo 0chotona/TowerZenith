@@ -1,0 +1,126 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1449723667483509353
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 706762229675649948}
+  m_Layer: 6
+  m_Name: item_weapon_shield_04
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &706762229675649948
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1449723667483509353}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8770758620584266975}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &4547776827885861102
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8770758620584266975}
+  - component: {fileID: 3372592902222066335}
+  - component: {fileID: 8282540215420697796}
+  m_Layer: 0
+  m_Name: Hyrule_Hp
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8770758620584266975
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4547776827885861102}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.70218176, y: -0.7002086, z: -0.0053524426, w: 0.12891886}
+  m_LocalPosition: {x: -0.042, y: -0.012, z: 0.031}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 706762229675649948}
+  m_LocalEulerAnglesHint: {x: -169.132, y: 10.147995, z: -90.80701}
+--- !u!33 &3372592902222066335
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4547776827885861102}
+  m_Mesh: {fileID: 2322542077848866073, guid: 01eabbe61ccbbe046b122bb2630a76bf, type: 3}
+--- !u!23 &8282540215420697796
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4547776827885861102}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 973d00b201b9f4a439dfd2bf4d70fc20, type: 2}
+  - {fileID: 2100000, guid: a3ec5a4706d601e4f9bd6022019e7bd7, type: 2}
+  - {fileID: 2100000, guid: 1d593b9563c00e04a9d888a8b99ba94a, type: 2}
+  - {fileID: 2100000, guid: a8377c20b2312da41b47d51ffe567d9b, type: 2}
+  - {fileID: 2100000, guid: 3c1c8e10eb4475140a8d417e486dbae1, type: 2}
+  - {fileID: 2100000, guid: 7602f6c758a2a9347bd3c4ac055b0201, type: 2}
+  - {fileID: 2100000, guid: fd40fa4fd9eaa444fa09cd892c7f5b2f, type: 2}
+  - {fileID: 2100000, guid: a197f636ada723f459361a2155367999, type: 2}
+  - {fileID: 2100000, guid: c88a20a56b7bcb948997959ee3c95331, type: 2}
+  - {fileID: 2100000, guid: 54f34a9997277174da2fab9f43fc3a89, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}

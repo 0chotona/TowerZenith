@@ -1,0 +1,9 @@
+ID,Dev_Name,Pre_Name,Buff_Name,Buff_Degree,Buff_Rate,Buff_Percent,Dur_Time,Cool_Time,Synergy_Item1,Synergy_Item2,Synergy_Item3,Item_Count,Synergy_Info
+10000,기사 정신,Synergy_01,Offensive_Increase,5,,,,,106,123,,2,"공격력, 방어력 증가"
+10001,과학 발전,Synergy_02,True_Damage,3,,20,,,102,124,,2,20% 확률로 3 고정피해
+10002,썬라이즈,Synergy_03,Stun,20,,,5,40,113,125,,2,폭발하는 화살 공격
+10003,그림자 밟기,Synergy_04,Sneak,,,,5,20,112,126,,2,일정 시간 동안 적을 피해 은신
+10004,샐러맨더,Synergy_05,Spawn_Fireball,3,,,,,104,117,127,3,화염구 3개로 증가
+10005,숲속 바람,Synergy_06,Get_Speed_And_Jump,10,,,,,114,128,,2,"이동속도, 점프력 대폭 상승"
+10006,얼음 지배,Synergy_07,Throw_Ice,30,,,,10,108,129,,2,..
+10007,야생의 숨결,Synergy_08,Shoot_Slash,20,,,,5,103,118,130,3,공격시 검기 발사
