@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-public class AttackController : MonoBehaviour
+public class AttackController
 {
     IAttackable _attackMethod;
     public void SetAttackMethod(IAttackable attackMethod)
@@ -76,9 +76,9 @@ public class PlayerAttack : MonoBehaviour
         {
             _attController.PerformAttack();
         }
-        switch(_weaphonIndex)
+        switch(_attController.GetAttackMethod())
         {
-            case 1:
+            case Attack_OneHandSword:
                 _isAttack = false;
                 _oneHandAtt.Anim_Attack();
                 _oneHandAtt._animEvent.OneHandAnim();
@@ -89,7 +89,7 @@ public class PlayerAttack : MonoBehaviour
                 //_playerHealth.SetShieldDef(_def);
                 
                 break;
-            case 2:
+            case Attack_TwoHandSword:
                 _isAttack = false;
                 _twoHandAtt.Anim_Attack();
                 _twoHandAtt._animEvent.TwoHandAnim();
@@ -99,7 +99,7 @@ public class PlayerAttack : MonoBehaviour
                 _damageBox.SetDamage(_damage);
                 //_playerHealth.SetShieldDef(0);
                 break;
-            case 3:
+            case Attack_Bow:
                 _isAttack = false;
                 _isAiming = Input.GetMouseButton(1);
                 
